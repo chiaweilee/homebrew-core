@@ -75,6 +75,7 @@ class Nginx < Formula
       --with-stream_realip_module
       --with-stream_ssl_module
       --with-stream_ssl_preread_module
+      --with-lua-module
     ]
 
     (pkgshare/"src/configure_args.txt").write args.join("\n")
